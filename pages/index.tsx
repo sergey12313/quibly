@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { AdvantageSection } from "../components/layout/AdvantageSection/AdvantageSection";
 import { Header } from "../components/layout/TopSection/Header";
 import { TopSection } from "../components/layout/TopSection/TopSection";
 import styles from "../styles/Home.module.css";
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <TopSection />
+      <AdvantageSection />
     </>
   );
 };
