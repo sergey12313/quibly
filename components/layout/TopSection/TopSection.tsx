@@ -6,10 +6,8 @@ export const TopSection = () => {
   return (
     <Stack
       as="section"
-      background="url('/topSectionBg.svg')"
-      backgroundSize="100%"
-      backgroundRepeat="no-repeat"
-      backgroundPosition="left bottom"
+      background="linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(227,241,254,0.5) 100%)"
+      clipPath="polygon(0 0, 100% 0%, 100% 85%, 0% 100%)"
       pb="200px"
       pt="24px"
     >

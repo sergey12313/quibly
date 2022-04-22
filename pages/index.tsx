@@ -2,6 +2,9 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { AdvantageSection } from "../components/layout/AdvantageSection/AdvantageSection";
+import { BestStackSection } from "../components/layout/DescriptionSections/BestStackSection";
+import { PipeLineSection } from "../components/layout/DescriptionSections/PipelinesSection";
+import { ReviewSection } from "../components/layout/ReviewSection/ReviewSection";
 import { Header } from "../components/layout/TopSection/Header";
 import { TopSection } from "../components/layout/TopSection/TopSection";
 import styles from "../styles/Home.module.css";
@@ -16,6 +19,9 @@ const Home: NextPage = () => {
       </Head>
       <TopSection />
       <AdvantageSection />
+      <BestStackSection />
+      <PipeLineSection />
+      <ReviewSection />
     </>
   );
 };
